@@ -24,3 +24,4 @@ Monitor and Auto-Restart Stopped EC2 Instances Every Hour
 - Lambda
 - Boto3
 - Event Bridge
+- app.diagrams.net
