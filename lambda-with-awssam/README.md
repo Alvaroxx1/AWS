@@ -40,7 +40,7 @@ In Cloud Formation you can observe:
 
 ![img2.png](img2.png)
 
-- Event folder will receive each event that occurs when the lambda function is called; you can errase everything and set some values for testing purposes → then after modifications off [app.py](http://app.py) and events.json run the following
+- Event folder will receive each event that occurs when the lambda function is called; you can errase everything and set some values for testing purposes → then after modifications of [app.py](http://app.py) and events.json run the following
 
 ```bash
 # First Build
