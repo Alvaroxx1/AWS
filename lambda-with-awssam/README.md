@@ -54,6 +54,7 @@ sam deploy
 ![img3.jpg](img3.jpg)
 
 **Notice**: *If you want to delete your stack, you cannot do it from the SAM CLI*
+
 **Instead**: *You can run the following command with aws or delete it within AWS Console*
 ```
 aws cloudformation delete-stack --stack-name sam-app 
