@@ -53,8 +53,25 @@ sam deploy
 
 ![img3.jpg](img3.jpg)
 
-1. Download Docker Desktop
-2. Authenticate w/ AWS
+**Notice**: *If you want to delete your stack, you cannot do it from the SAM CLI*
+**Instead**: *You can run the following command with aws or delete it within AWS Console*
+```
+aws cloudformation delete-stack --stack-name sam-app 
+```
+
+2. Download Docker Desktop
+3. Authenticate w/ AWS
+
+### Summary
+
+1. Create Function
+2. Define Resources
+3. Open Lambda Function and Start to Develop. When your are happy with your changes your are gonna build it and deploy it
+4. If you need to test it locally, just create an event.json with your event data and evoke locally
+5. Test -> Build -> Ready -> Deploy It
+6. Delete stack with **aws** command
+
+
 
 ### AWS Tools
 
